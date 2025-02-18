@@ -21,15 +21,15 @@ for i in input_text:
     count=len(words)
     long=longest(words)
     pal=palindrome(words)
-    if len(pal)>=1:
-        npal = ', '.join(pal)
+    if pal:
+        pal = ', '.join(pal)
     else:
-        napl= "None"
+        pal= "None"
     final = (
         f"Sentence: {i.strip()}\n"
         f"Word Count: {count}\n"
         f"Longest Word: {', '.join(long)}\n"
-        f"Palindromes: {napl}\n"
+        f"Palindromes: {pal}\n"
     )
     Output.append(final)
 Output_text=open("sentence_analysis.txt","w")
