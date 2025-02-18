@@ -6,7 +6,7 @@ Palindromes: None
 Sentence: Radar is a palindrome
 Word Count: 4
 Longest Word: palindrome
-Palindromes: None
+Palindromes: Radar
 
 Sentence: The quick brown fox jumps over the lazy dog
 Word Count: 9
